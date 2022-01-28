@@ -1,3 +1,103 @@
 {
-  "global": {}
+  "global": {
+    "colors": {
+      "black": {
+        "value": "#000000",
+        "description": "schwarz",
+        "type": "color"
+      },
+      "white": {
+        "value": "#ffffff",
+        "description": "weiß",
+        "type": "color"
+      }
+    }
+  },
+  "global.HH": {
+    "colors": {
+      "hh": {
+        "primary": {
+          "1": {
+            "value": "#003063",
+            "description": "Hamburg Primär Blau",
+            "type": "color"
+          },
+          "2": {
+            "value": "#E10019",
+            "description": "Hamburg Primary Rot",
+            "type": "color"
+          },
+          "3": {
+            "value": "#005CA9",
+            "description": "Hamburg Primary Mittelblau",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "global.SH": {
+    "colors": {
+      "sh": {
+        "primary": {
+          "1": {
+            "value": "#003063",
+            "description": "SH Primary Blau",
+            "type": "color"
+          },
+          "2": {
+            "value": "#d4004b",
+            "description": "SH Primary Red",
+            "type": "color"
+          },
+          "3": {
+            "value": "#005CA9",
+            "description": "SH Primary Mittelblau",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "global.Neutral": {},
+  "theme.HH": {
+    "colors": {
+      "theme": {
+        "primary": {
+          "1": {
+            "value": "{colors.hh.primary.1}",
+            "type": "color"
+          },
+          "2": {
+            "value": "{colors.hh.primary.2}",
+            "type": "color"
+          },
+          "3": {
+            "value": "{colors.hh.primary.3}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "thema.SH": {
+    "colors": {
+      "theme": {
+        "primary": {
+          "1": {
+            "value": "{colors.sh.primary.1}",
+            "type": "color"
+          },
+          "2": {
+            "value": "{colors.sh.primary.2}",
+            "type": "color"
+          },
+          "3": {
+            "value": "{colors.sh.primary.3}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
 }
