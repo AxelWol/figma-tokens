@@ -8,7 +8,7 @@
       },
       "white": {
         "value": "#ffffff",
-        "description": "weiß",
+        "description": "weiÃ",
         "type": "color"
       }
     }
@@ -19,7 +19,7 @@
         "primary": {
           "1": {
             "value": "#003063",
-            "description": "Hamburg Primär Blau",
+            "description": "Hamburg PrimÃ¤r Blau",
             "type": "color"
           },
           "2": {
@@ -80,7 +80,7 @@
       }
     }
   },
-  "thema.SH": {
+  "theme.SH": {
     "colors": {
       "theme": {
         "primary": {
