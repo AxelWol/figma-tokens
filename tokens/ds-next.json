@@ -71,7 +71,7 @@
               "type": "color"
             },
             "lines": {
-              "value": " #BFCBD8",
+              "value": "#BFCBD8",
               "type": "color"
             },
             "disabled-dark": {
@@ -191,6 +191,30 @@
             "value": "{colors.common.interaction.link-visited}",
             "type": "color"
           }
+        },
+        "background": {
+          "set1": {
+            "dark": {
+              "value": "{colors.common.background.set1.dark}",
+              "type": "color"
+            },
+            "light": {
+              "value": "{colors.common.background.set1.light}",
+              "type": "color"
+            },
+            "lines": {
+              "value": "{colors.common.background.set1.lines}",
+              "type": "color"
+            },
+            "disabled-dark": {
+              "value": "{colors.common.background.set1.disabled-dark}",
+              "type": "color"
+            },
+            "disabled-light": {
+              "value": "{colors.common.background.set1.disabled-light}",
+              "type": "color"
+            }
+          }
         }
       }
     }
@@ -230,6 +254,30 @@
           "link-visited": {
             "value": "{colors.common.interaction.link-visited}",
             "type": "color"
+          }
+        },
+        "background": {
+          "set1": {
+            "dark": {
+              "value": "{colors.common.background.set1.dark}",
+              "type": "color"
+            },
+            "light": {
+              "value": "{colors.common.background.set1.light}",
+              "type": "color"
+            },
+            "lines": {
+              "value": "{colors.common.background.set1.lines}",
+              "type": "color"
+            },
+            "disabled-dark": {
+              "value": "{colors.common.background.set1.disabled-dark}",
+              "type": "color"
+            },
+            "disabled-light": {
+              "value": "{colors.common.background.set1.disabled-light}",
+              "type": "color"
+            }
           }
         }
       }
