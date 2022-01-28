@@ -11,13 +11,17 @@
           "value": "#ffffff",
           "description": "weiÃ",
           "type": "color"
+        },
+        "blackredux": {
+          "value": "#404040",
+          "type": "color"
         }
       },
       "hh": {
         "primary": {
           "1": {
             "value": "#003063",
-            "description": "Hamburg PrimÃ¤r Blau",
+            "description": "Hamburg Primary Blau",
             "type": "color"
           },
           "2": {
@@ -28,6 +32,16 @@
           "3": {
             "value": "#005CA9",
             "description": "Hamburg Primary Mittelblau",
+            "type": "color"
+          }
+        },
+        "text": {
+          "dark": {
+            "value": " {colors.common.blackredux}",
+            "type": "color"
+          },
+          "light": {
+            "value": "{colors.common.white}",
             "type": "color"
           }
         }
@@ -47,6 +61,16 @@
           "3": {
             "value": "#005CA9",
             "description": "SH Primary Mittelblau",
+            "type": "color"
+          }
+        },
+        "text": {
+          "dark": {
+            "value": " {colors.common.black}",
+            "type": "color"
+          },
+          "light": {
+            "value": "{colors.common.white}",
             "type": "color"
           }
         }
