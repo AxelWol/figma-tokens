@@ -1,20 +1,18 @@
 {
   "global": {
     "colors": {
-      "black": {
-        "value": "#000000",
-        "description": "schwarz",
-        "type": "color"
+      "common": {
+        "black": {
+          "value": "#000000",
+          "description": "schwarz",
+          "type": "color"
+        },
+        "white": {
+          "value": "#ffffff",
+          "description": "weiÃ",
+          "type": "color"
+        }
       },
-      "white": {
-        "value": "#ffffff",
-        "description": "weiÃ",
-        "type": "color"
-      }
-    }
-  },
-  "global.HH": {
-    "colors": {
       "hh": {
         "primary": {
           "1": {
@@ -33,11 +31,7 @@
             "type": "color"
           }
         }
-      }
-    }
-  },
-  "global.SH": {
-    "colors": {
+      },
       "sh": {
         "primary": {
           "1": {
@@ -59,7 +53,6 @@
       }
     }
   },
-  "global.Neutral": {},
   "theme.HH": {
     "colors": {
       "theme": {
