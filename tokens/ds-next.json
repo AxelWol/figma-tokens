@@ -10,7 +10,7 @@
           },
           "white": {
             "value": "#ffffff",
-            "description": "weiÃ",
+            "description": "weiss",
             "type": "color"
           },
           "blackredux": {
@@ -82,6 +82,16 @@
               "value": "#B3B3B3",
               "type": "color"
             }
+          }
+        },
+        "interaction": {
+          "link-active": {
+            "value": "#2B88D8",
+            "type": "color"
+          },
+          "link-visited": {
+            "value": "#7A009F",
+            "type": "color"
           }
         }
       },
@@ -161,6 +171,26 @@
             "value": "{colors.hh.primary.3}",
             "type": "color"
           }
+        },
+        "text": {
+          "dark": {
+            "value": " {colors.hh.text.dark}",
+            "type": "color"
+          },
+          "light": {
+            "value": "{colors.hh.text.light}",
+            "type": "color"
+          }
+        },
+        "interaction": {
+          "link-active": {
+            "value": "{colors.common.interaction.link-active}",
+            "type": "color"
+          },
+          "link-visited": {
+            "value": "{colors.common.interaction.link-visited}",
+            "type": "color"
+          }
         }
       }
     }
@@ -179,6 +209,26 @@
           },
           "3": {
             "value": "{colors.sh.primary.3}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "dark": {
+            "value": " {colors.sh.text.dark}",
+            "type": "color"
+          },
+          "light": {
+            "value": "{colors.sh.text.light}",
+            "type": "color"
+          }
+        },
+        "interaction": {
+          "link-active": {
+            "value": "{colors.common.interaction.link-active}",
+            "type": "color"
+          },
+          "link-visited": {
+            "value": "{colors.common.interaction.link-visited}",
             "type": "color"
           }
         }
