@@ -153,6 +153,40 @@
           }
         }
       }
+    },
+    "common": {
+      "typo": {
+        "buttontext": {
+          "hh": {
+            "value": {
+              "fontFamily": "Arial",
+              "fontWeight": "Bold",
+              "lineHeight": "AUTO",
+              "fontSize": "16",
+              "letterSpacing": "0%",
+              "paragraphSpacing": "0",
+              "textDecoration": "none",
+              "textCase": "none"
+            },
+            "description": "Standard Button Text für HH",
+            "type": "typography"
+          },
+          "sh": {
+            "value": {
+              "fontFamily": "Helvetica",
+              "fontWeight": "Bold",
+              "lineHeight": "AUTO",
+              "fontSize": "18",
+              "letterSpacing": "0%",
+              "paragraphSpacing": "0",
+              "textDecoration": "none",
+              "textCase": "none"
+            },
+            "description": "Standard Button Text für SH",
+            "type": "typography"
+          }
+        }
+      }
     }
   },
   "theme.HH": {
@@ -217,6 +251,23 @@
           }
         }
       }
+    },
+    "typo": {
+      "theme": {
+        "buttontext": {
+          "value": {
+            "fontFamily": "Inter",
+            "fontWeight": "Regular",
+            "lineHeight": "AUTO",
+            "fontSize": "18",
+            "letterSpacing": "0%",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography"
+        }
+      }
     }
   },
   "theme.SH": {
@@ -279,6 +330,23 @@
               "type": "color"
             }
           }
+        }
+      }
+    },
+    "typo": {
+      "theme": {
+        "buttontext": {
+          "value": {
+            "fontFamily": "Helvetica",
+            "fontWeight": "Bold",
+            "lineHeight": "AUTO",
+            "fontSize": "18",
+            "letterSpacing": "0%",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography"
         }
       }
     }
