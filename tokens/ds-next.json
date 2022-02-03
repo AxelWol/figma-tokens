@@ -3,6 +3,10 @@
     "colors": {
       "common": {
         "primary": {
+          "4": {
+            "value": "rgba(145,145,145,0.78)",
+            "type": "color"
+          },
           "black": {
             "value": "#000000",
             "description": "schwarz",
@@ -168,7 +172,7 @@
               "textDecoration": "none",
               "textCase": "none"
             },
-            "description": "Standard Button Text für HH",
+            "description": "Standard Button Text fÃ¼r HH",
             "type": "typography"
           },
           "sh": {
@@ -182,151 +186,10 @@
               "textDecoration": "none",
               "textCase": "none"
             },
-            "description": "Standard Button Text für SH",
+            "description": "Standard Button Text fÃ¼r SH",
             "type": "typography"
           }
         }
-      }
-    }
-  },
-  "theme.HH": {
-    "colors": {
-      "theme": {
-        "primary": {
-          "1": {
-            "value": "{colors.hh.primary.1}",
-            "type": "color"
-          },
-          "2": {
-            "value": "{colors.hh.primary.2}",
-            "type": "color"
-          },
-          "3": {
-            "value": "{colors.hh.primary.3}",
-            "type": "color"
-          }
-        },
-        "text": {
-          "dark": {
-            "value": " {colors.hh.text.dark}",
-            "type": "color"
-          },
-          "light": {
-            "value": "{colors.hh.text.light}",
-            "type": "color"
-          }
-        },
-        "interaction": {
-          "link-active": {
-            "value": "{colors.common.interaction.link-active}",
-            "type": "color"
-          },
-          "link-visited": {
-            "value": "{colors.common.interaction.link-visited}",
-            "type": "color"
-          }
-        },
-        "background": {
-          "set1": {
-            "dark": {
-              "value": "{colors.common.background.set1.dark}",
-              "type": "color"
-            },
-            "light": {
-              "value": "{colors.common.background.set1.light}",
-              "type": "color"
-            },
-            "lines": {
-              "value": "{colors.common.background.set1.lines}",
-              "type": "color"
-            },
-            "disabled-dark": {
-              "value": "{colors.common.background.set1.disabled-dark}",
-              "type": "color"
-            },
-            "disabled-light": {
-              "value": "{colors.common.background.set1.disabled-light}",
-              "type": "color"
-            }
-          }
-        }
-      }
-    },
-    "typo": {
-      "theme": {
-        "buttontext": {
-          "value": {
-            "fontFamily": "$fontFamilies.inter",
-            "fontWeight": "$fontWeights.inter-1",
-            "lineHeight": "$lineHeights.0",
-            "fontSize": "$fontSize.1",
-            "letterSpacing": "$letterSpacing.0",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          },
-          "type": "typography"
-        }
-      }
-    },
-    "fontFamilies": {
-      "roboto": {
-        "value": "Roboto",
-        "type": "fontFamilies"
-      },
-      "inter": {
-        "value": "Inter",
-        "type": "fontFamilies"
-      }
-    },
-    "lineHeights": {
-      "0": {
-        "value": "AUTO",
-        "type": "lineHeights"
-      }
-    },
-    "fontWeights": {
-      "roboto-0": {
-        "value": "Regular",
-        "type": "fontWeights"
-      },
-      "inter-1": {
-        "value": "Regular",
-        "type": "fontWeights"
-      }
-    },
-    "fontSize": {
-      "0": {
-        "value": "12",
-        "type": "fontSizes"
-      },
-      "1": {
-        "value": "18",
-        "type": "fontSizes"
-      }
-    },
-    "letterSpacing": {
-      "0": {
-        "value": "0%",
-        "type": "letterSpacing"
-      }
-    },
-    "paragraphSpacing": {
-      "0": {
-        "value": "0",
-        "type": "paragraphSpacing"
-      }
-    },
-    "textCase": {
-      "none": {
-        "value": "none",
-        "type": "textCase"
-      }
-    },
-    "textDecoration": {
-      "none": {
-        "value": "none",
-        "type": "textDecoration"
       }
     }
   },
@@ -439,6 +302,147 @@
     "fontSize": {
       "0": {
         "value": "16",
+        "type": "fontSizes"
+      },
+      "1": {
+        "value": "18",
+        "type": "fontSizes"
+      }
+    },
+    "letterSpacing": {
+      "0": {
+        "value": "0%",
+        "type": "letterSpacing"
+      }
+    },
+    "paragraphSpacing": {
+      "0": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      }
+    },
+    "textCase": {
+      "none": {
+        "value": "none",
+        "type": "textCase"
+      }
+    },
+    "textDecoration": {
+      "none": {
+        "value": "none",
+        "type": "textDecoration"
+      }
+    }
+  },
+  "theme.HH": {
+    "colors": {
+      "theme": {
+        "primary": {
+          "1": {
+            "value": "{colors.hh.primary.1}",
+            "type": "color"
+          },
+          "2": {
+            "value": "{colors.hh.primary.2}",
+            "type": "color"
+          },
+          "3": {
+            "value": "{colors.hh.primary.3}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "dark": {
+            "value": " {colors.hh.text.dark}",
+            "type": "color"
+          },
+          "light": {
+            "value": "{colors.hh.text.light}",
+            "type": "color"
+          }
+        },
+        "interaction": {
+          "link-active": {
+            "value": "{colors.common.interaction.link-active}",
+            "type": "color"
+          },
+          "link-visited": {
+            "value": "{colors.common.interaction.link-visited}",
+            "type": "color"
+          }
+        },
+        "background": {
+          "set1": {
+            "dark": {
+              "value": "{colors.common.background.set1.dark}",
+              "type": "color"
+            },
+            "light": {
+              "value": "{colors.common.background.set1.light}",
+              "type": "color"
+            },
+            "lines": {
+              "value": "{colors.common.background.set1.lines}",
+              "type": "color"
+            },
+            "disabled-dark": {
+              "value": "{colors.common.background.set1.disabled-dark}",
+              "type": "color"
+            },
+            "disabled-light": {
+              "value": "{colors.common.background.set1.disabled-light}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "typo": {
+      "theme": {
+        "buttontext": {
+          "value": {
+            "fontFamily": "$fontFamilies.inter",
+            "fontWeight": "$fontWeights.inter-1",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.1",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
+          },
+          "type": "typography"
+        }
+      }
+    },
+    "fontFamilies": {
+      "roboto": {
+        "value": "Roboto",
+        "type": "fontFamilies"
+      },
+      "inter": {
+        "value": "Inter",
+        "type": "fontFamilies"
+      }
+    },
+    "lineHeights": {
+      "0": {
+        "value": "AUTO",
+        "type": "lineHeights"
+      }
+    },
+    "fontWeights": {
+      "roboto-0": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "inter-1": {
+        "value": "Regular",
+        "type": "fontWeights"
+      }
+    },
+    "fontSize": {
+      "0": {
+        "value": "12",
         "type": "fontSizes"
       },
       "1": {
