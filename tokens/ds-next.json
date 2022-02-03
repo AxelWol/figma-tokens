@@ -256,17 +256,150 @@
       "theme": {
         "buttontext": {
           "value": {
-            "fontFamily": "Inter",
-            "fontWeight": "Regular",
-            "lineHeight": "AUTO",
-            "fontSize": "18",
-            "letterSpacing": "0%",
-            "paragraphSpacing": "0",
-            "textDecoration": "none",
-            "textCase": "none"
+            "fontFamily": "$fontFamilies.inter",
+            "fontWeight": "$fontWeights.inter-1",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.1",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
           },
           "type": "typography"
         }
+      },
+      "set2": {
+        "root": {
+          "value": {
+            "fontFamily": "$fontFamilies.roboto",
+            "fontWeight": "$fontWeights.roboto-0",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
+          },
+          "type": "typography"
+        },
+        "h1": {
+          "value": {
+            "fontFamily": "$fontFamilies.roboto",
+            "fontWeight": "$fontWeights.roboto-0",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
+          },
+          "type": "typography"
+        },
+        "h2": {
+          "value": {
+            "fontFamily": "$fontFamilies.roboto",
+            "fontWeight": "$fontWeights.roboto-0",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
+          },
+          "type": "typography"
+        }
+      }
+    },
+    "fontFamilies": {
+      "roboto": {
+        "value": "Roboto",
+        "type": "fontFamilies"
+      },
+      "inter": {
+        "value": "Inter",
+        "type": "fontFamilies"
+      }
+    },
+    "lineHeights": {
+      "0": {
+        "value": "AUTO",
+        "type": "lineHeights"
+      }
+    },
+    "fontWeights": {
+      "roboto-0": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "inter-1": {
+        "value": "Regular",
+        "type": "fontWeights"
+      }
+    },
+    "fontSize": {
+      "0": {
+        "value": "12",
+        "type": "fontSizes"
+      },
+      "1": {
+        "value": "18",
+        "type": "fontSizes"
+      }
+    },
+    "letterSpacing": {
+      "0": {
+        "value": "0%",
+        "type": "letterSpacing"
+      }
+    },
+    "paragraphSpacing": {
+      "0": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      }
+    },
+    "common": {
+      "typo": {
+        "buttontext": {
+          "hh": {
+            "value": {
+              "fontFamily": "$fontFamilies.roboto",
+              "fontWeight": "$fontWeights.roboto-0",
+              "lineHeight": "$lineHeights.0",
+              "fontSize": "$fontSize.0",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.0",
+              "textCase": "$textCase.none",
+              "textDecoration": "$textDecoration.none"
+            },
+            "type": "typography"
+          },
+          "sh": {
+            "value": {
+              "fontFamily": "$fontFamilies.roboto",
+              "fontWeight": "$fontWeights.roboto-0",
+              "lineHeight": "$lineHeights.0",
+              "fontSize": "$fontSize.0",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.0",
+              "textCase": "$textCase.none",
+              "textDecoration": "$textDecoration.none"
+            },
+            "type": "typography"
+          }
+        }
+      }
+    },
+    "textCase": {
+      "none": {
+        "value": "none",
+        "type": "textCase"
+      }
+    },
+    "textDecoration": {
+      "none": {
+        "value": "none",
+        "type": "textDecoration"
       }
     }
   },
