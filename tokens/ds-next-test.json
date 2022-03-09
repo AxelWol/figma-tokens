@@ -37,6 +37,10 @@
         "link-light": {
           "value": "#ffffff",
           "type": "color"
+        },
+        "msg-default": {
+          "value": "#ffffff",
+          "type": "color"
         }
       },
       "btn-state": {
@@ -110,7 +114,7 @@
           "type": "color"
         },
         "warning": {
-          "value": "#fbc707",
+          "value": "#c59a00",
           "type": "color"
         }
       },
@@ -453,6 +457,10 @@
         "link-light": {
           "value": "#ffffff",
           "type": "color"
+        },
+        "msg-default": {
+          "value": "#000000",
+          "type": "color"
         }
       },
       "btn-state": {
@@ -514,19 +522,19 @@
           "type": "color"
         },
         "error": {
-          "value": "#d4004b",
+          "value": "#FCE5E7",
           "type": "color"
         },
         "success": {
-          "value": "#1eae9c",
+          "value": "#DFF6DD",
           "type": "color"
         },
         "notification": {
-          "value": "#003064",
+          "value": "#D3E1FC",
           "type": "color"
         },
         "warning": {
-          "value": "#fbc707",
+          "value": "#FFF4CE",
           "type": "color"
         }
       },
@@ -930,19 +938,19 @@
           "type": "color"
         },
         "error": {
-          "value": "#d4004b",
+          "value": "#FCE5E7",
           "type": "color"
         },
         "success": {
-          "value": "#1eae9c",
+          "value": "#DFF6DD",
           "type": "color"
         },
         "notification": {
-          "value": "#003064",
+          "value": "#D3E1FC",
           "type": "color"
         },
         "warning": {
-          "value": "#fbc707",
+          "value": "#FFF4CE",
           "type": "color"
         }
       },
