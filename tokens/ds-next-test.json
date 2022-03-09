@@ -379,6 +379,39 @@
           },
           "type": "typography"
         }
+      },
+      "drop-shadow-header": {
+        "value": {
+          "color": "#00000040",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 4,
+          "blur": 10,
+          "spread": 0
+        },
+        "type": "boxShadow"
+      },
+      "drop-shadow-menu": {
+        "value": {
+          "color": "#00000033",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 30,
+          "blur": 60,
+          "spread": 0
+        },
+        "type": "boxShadow"
+      },
+      "drop-shadow-modal": {
+        "value": {
+          "color": "#00000040",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 10,
+          "spread": 0
+        },
+        "type": "boxShadow"
       }
     }
   }
