@@ -1,3 +1,156 @@
 {
-  "global": {}
+  "global": {
+    "nxt": {
+      "text": {
+        "base-default": {
+          "value": "#1b1b1b",
+          "type": "color"
+        },
+        "base-light": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "headlines": {
+          "value": "#003064",
+          "type": "color"
+        },
+        "btn-primary": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "btn-secondary": {
+          "value": "#003064",
+          "type": "color"
+        },
+        "btn-disabled": {
+          "value": "#99acc1",
+          "type": "color"
+        },
+        "link-default": {
+          "value": "#003064",
+          "type": "color"
+        },
+        "link-hover": {
+          "value": "#3a78b8",
+          "type": "color"
+        },
+        "link-light": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      },
+      "btn-state": {
+        "p-default": {
+          "value": "#003064",
+          "type": "color"
+        },
+        "p-hover": {
+          "value": "#3a78b8",
+          "type": "color"
+        },
+        "p-active": {
+          "value": "#003064",
+          "type": "color"
+        },
+        "s-default": {
+          "value": "#99acc1",
+          "type": "color"
+        },
+        "s-hover": {
+          "value": "#e5eaef",
+          "type": "color"
+        },
+        "s-active": {
+          "value": "#99acc1",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#e5eaef",
+          "type": "color"
+        }
+      },
+      "form": {
+        "fill": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "stroke": {
+          "value": "#99acc1",
+          "type": "color"
+        }
+      },
+      "misc": {
+        "focus": {
+          "value": "#4c6e92",
+          "type": "color"
+        },
+        "error": {
+          "value": "#d4004b",
+          "type": "color"
+        },
+        "success": {
+          "value": "#1eae9c",
+          "type": "color"
+        },
+        "notification": {
+          "value": "#003064",
+          "type": "color"
+        },
+        "warning": {
+          "value": "#fbc707",
+          "type": "color"
+        }
+      },
+      "fond": {
+        "fond-00": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "fond-05": {
+          "value": "#f2f4f7",
+          "type": "color"
+        },
+        "fond-10": {
+          "value": "#e5eaef",
+          "type": "color"
+        },
+        "fond-20": {
+          "value": "#ccd6e0",
+          "type": "color"
+        },
+        "fond-30": {
+          "value": "#b2c0d0",
+          "type": "color"
+        },
+        "fond-40": {
+          "value": "#99acc1",
+          "type": "color"
+        },
+        "fond-50": {
+          "value": "#7f97b1",
+          "type": "color"
+        },
+        "fond-60": {
+          "value": "#6683a2",
+          "type": "color"
+        },
+        "fond-70": {
+          "value": "#4c6e92",
+          "type": "color"
+        },
+        "fond-80": {
+          "value": "#335983",
+          "type": "color"
+        },
+        "fond-90": {
+          "value": "#194473",
+          "type": "color"
+        },
+        "fond-100": {
+          "value": "#003064",
+          "type": "color"
+        }
+      }
+    }
+  }
 }
