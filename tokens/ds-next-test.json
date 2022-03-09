@@ -485,7 +485,7 @@
           "type": "color"
         },
         "s-active": {
-          "value": "#99acc1",
+          "value": "#E3E3E3",
           "type": "color"
         },
         "disabled": {
@@ -901,7 +901,7 @@
           "type": "color"
         },
         "s-active": {
-          "value": "#99acc1",
+          "value": "#E3E3E3",
           "type": "color"
         },
         "disabled": {
