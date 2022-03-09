@@ -469,11 +469,11 @@
           "type": "color"
         },
         "p-hover": {
-          "value": "#3a78b8",
+          "value": "#B40014",
           "type": "color"
         },
         "p-active": {
-          "value": "#003064",
+          "value": "#E10019",
           "type": "color"
         },
         "s-default": {
@@ -885,11 +885,11 @@
           "type": "color"
         },
         "p-hover": {
-          "value": "#3a78b8",
+          "value": "#fb4585",
           "type": "color"
         },
         "p-active": {
-          "value": "#003064",
+          "value": "#D2004B",
           "type": "color"
         },
         "s-default": {
