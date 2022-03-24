@@ -892,6 +892,10 @@
         "link-light": {
           "value": "#ffffff",
           "type": "color"
+        },
+        "msg-default": {
+          "value": "#000000",
+          "type": "color"
         }
       },
       "btn-state": {
